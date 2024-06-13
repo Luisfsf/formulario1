@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a><img src="mt.png" alt="MT STORE"><h1>MT STORE</h1></a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="">Promoções</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <main>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="email">Usúario:</label>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div class="form-group">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+            </div><br>
+            <button type="submit">Entrar</button>
+        
+        </form>
+        <p>Ainda não tem cadastro? <a href="exemplo.html">Cadastre-se</a> aqui</p>
+    </div>
+</main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Sua Empresa. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="/terms">Termos de Uso</a>
+                <a href="/privacy">Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
